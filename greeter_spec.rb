@@ -1,7 +1,7 @@
-describe "RSpec Greeter" do
-	it "should say 'Hello RSpec!' when it receives the greet() message" do
-		greeter = RSpecGreeter.new
-		greeting = greeter.greet
-		greeting.should == "Hello RSpec!"
+describe "RSpec Greeter" do 								# declare example group 
+	it "should say 'Hello RSpec!' when it receives the greet() message" do		# declare example using it method
+		greeter = RSpecGreeter.new						# the 'Given'
+		greeting = greeter.greet						# the 'When'
+		greeting.should == "Hello RSpec!"					# the 'Then'
 	end
 end
